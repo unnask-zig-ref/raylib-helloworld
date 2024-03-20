@@ -1,0 +1,17 @@
+.{
+    .name = "raylib-helloworld",
+    .version = "0.0.1",
+    .dependencies = .{
+        //note that this is the dependency name
+        .raylib = .{
+            .url = "https://github.com/raysan5/raylib/archive/9cf408f77c58828fd1019d5cd35c6b8c5139c8dc.tar.gz",
+            .hash = "12206b902f82b862d7e97c7d87364b5ab90a0a4f8b640351f32aa58a5888adc8f192",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "README.MD",
+        "src",
+    },
+}
