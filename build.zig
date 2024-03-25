@@ -25,7 +25,6 @@ pub fn build(b: *std.Build) void {
     const raylibDep = b.dependency("raylib", .{
         .target = target,
         .optimize = optimize,
-        .use_wayland = false,
     });
 
     //this artifact name also needs to match the dependency name used in
